@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lecture 4 Assignment</title>
+    <style>
+        nav {
+            position: fixed;
+            width: 100%;
+            text-align: center;
+            display: inline-block;
+            z-index: 9999;
+        }
+
+        .nav {
+            display: inline-block;
+            text-decoration: none;
+            z-index: 9999;
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+
+        a {
+            z-index: 9999;
+            text-decoration: none;
+            color: black;
+        }
+
+        .navtext {
+            font-size: 30px;
+            color: cadetblue;
+            font-family: fantasy;
+        }
+
+        .navtext:hover {
+            font-weight: bold;
+        }
+
+        dt {
+            text-align: center;
+            font-size: 50px;
+        }
+
+        .designtext {
+            text-decoration: none;
+            color: darkslategray;
+        }
+        dd {
+            text-align: left;
+            padding-left: 20%;
+            font-size: 25px;
+        }
+        
+        h1 {
+            font-size: 30px;
+            text-align: center;
+        }
+
+        .active {
+            font-size: 30px;
+            text-decoration: underline;
+            font-weight: bold;
+            color: lightseagreen;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        .header {
+            font-size: 75px;
+            text-decoration: none;
+            color: lightseagreen;
+            padding-left: 20%;
+        }
+
+        .header:hover {
+            font-weight: bold;
+        }
+        
+        .text {
+            margin-left: 20%;
+            margin-right: 20%;
+            font-size: 30px;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="nav">
+                <a class="navtext" href="design.html">Design</a>
+            </li>
+            <li class="nav">
+                <a class="navtext" href="contrast.html">Contrast</a>
+            </li>
+            <li class="nav">
+                <a class="active" href="repetition.html">Repetition</a>
+            </li>
+            <li class="nav">
+                <a class="navtext" href="alignment.html">Alignment</a>
+            </li>
+            <li class="nav">
+                <a class="navtext" href="proximity.html">Proximity</a>
+            </li>
+        </ul>
+    </nav>
+    <br> <br> <br> <br> <br>
+    <a class="header" href="https://rule-of-three.co.uk/">
+        Repetition
+    </a>
+    <a href="https://rule-of-three.co.uk/">
+        <img src="images/repetition.png" style="width: 60%; padding-left: 20%;">
+    </a>
+    <ol>
+        <li class="text">The Website <a href="https://rule-of-three.co.uk/">Rule of Three</a> is a great example of a website with good repetition.</li>
+        <li class="text">Throughout the web page, the same style and fonts are used even though there are different colors.</li>
+        <li class="text">The size of each section of the page is also the same.</li>
+        <li class="text">Additionally, there are fixed butons at the corner of the display every time even if you scroll. </li>
+    </ol>
+</body>
+</html>
