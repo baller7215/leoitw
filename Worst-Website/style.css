@@ -1,0 +1,807 @@
+/* Home Page */
+
+body.home {
+    background-image: url(images/background.gif);
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* Navigation and Links to Pages */
+nav {
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    background-image: url(images/navbar.gif);
+    background-size: cover;
+    background-position: center;
+    border: 20px solid darkorchid;
+    position: fixed;
+    margin-right: 0px;
+    z-index: 100;
+}
+
+.nav {
+    display: inline-block;
+    text-decoration: none;
+    z-index: 9999;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.navtext {
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.5);
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    border: 5px solid darkorchid;
+}
+
+.navtext:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.page1text {
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.5);
+    
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    border: 5px solid rgb(0, 255, 115);
+
+}
+
+.page2text {
+    font-size: 30px;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    border: 5px solid yellow;
+}
+
+
+/* Header Text */
+.best {
+    text-decoration: line-through;
+    color: rgba(255,255,255,0.5);
+    background-color: rgba(255, 255, 255, 0.0.25);
+    margin-left: 20%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.worst {
+    color: seagreen;
+    background-color: darkorchid;
+    margin-left: 20%;
+    font-family: monospace;
+}   
+
+.song {
+    color: darkorchid;
+    background-color: seagreen;
+    margin-left: 20%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+/* Footer */
+footer {
+    margin-top: 20px;
+    height: 200px;
+}
+
+.homebutton {
+    text-align: center;
+    font-size: 2.5em;
+    color: black;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 20px;
+    margin-top: 50px;
+    float: left;
+}
+
+.page1button {
+    text-align: center;
+    font-size: 2.5em;
+    color: black;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 20px;
+    margin-top: 50px;
+    float: left;
+}
+
+.page2button {
+    text-align: center;
+    font-size: 2.5em;
+    color: black;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 20px;
+    margin-top: 50px;
+    float: left;
+}
+
+.research {
+    text-align: center;
+    font-size: 2.5em;
+    color: black;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 20px;
+    margin-top: 50px;
+    float: left;
+}
+
+.example {
+    text-align: center;
+    font-size: 2.5em;
+    color: black;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 20px;
+    margin-top: 50px;
+    float: right;
+}
+
+
+/* Home Page Background Grid */
+.grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    height: 1000px;
+    background-color: rgba(0,0,0,0.25);
+    position: relative;
+}
+
+.annoying1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-image: url(images/rickroll.gif);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.mine1 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-image: url(images/minediamonds.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.narwhals1 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    margin: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.nyancat1 {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    margin: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.pbj1 {
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    margin: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.pbj2 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    margin: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.annoying2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-image: url(images/rickroll.gif);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.mine2 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-image: url(images/minediamonds.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.narwhals2 {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    margin: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.nyancat2 {
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    margin: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.nyancat3 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    margin: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.pbj3 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    margin: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.annoying3 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background-image: url(images/rickroll.gif);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.mine3 {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background-image: url(images/minediamonds.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.narwhals3 {
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    margin: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.narwhals4 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    margin: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.nyancat4 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    margin: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.pbj4 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    margin: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.annoying4 {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    background-image: url(images/rickroll.gif);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.mine4 {
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    background-image: url(images/minediamonds.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.mine5 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    background-image: url(images/minediamonds.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.narwhals5 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    margin: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.nyancat5 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    margin: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.pbj5 {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    margin: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.annoying5 {
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    background-image: url(images/rickroll.gif);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+
+/* Page 1 */
+.nyan {
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    background-image: url(images/navbar.gif);
+    background-size: cover;
+    background-position: center;
+    border: 10px solid rgb(0, 255, 115);
+    margin-right: 0px;
+}
+
+body.page1 {
+    background-image: url(images/background4.gif);
+    background-size: cover;
+    background-position: center;
+}
+
+.nyancatgrid1 {
+    display: grid;
+    border: 10px solid rgb(0, 255, 115);
+    border-radius: 50px;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: 1fr 3fr 1fr;
+    grid-gap: 10px;
+    height: 750px;
+    background-color: rgba(0,0,0,0.25);
+    position: relative;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+}
+
+.vid1 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    margin: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.lyric {
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    text-align: center;
+    position: relative;
+    font-size: 40px;
+}
+
+.lyrics {
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    font-size: 0.5em;
+}
+
+.source {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 2em;
+}
+
+.nyanimgcontainer {
+    position: relative;
+    margin-bottom: 20px;
+    height: 550px;
+}
+
+.nyanimg1 {
+    width: 35%;
+    top: 50px;
+    left: 15%;
+    position: absolute;
+    border: black 5px;
+}
+
+.nyanimg2 {
+    width: 40%;
+    top: 75px;
+    left: 40%;
+    position: absolute;
+    border: black 5px;
+}
+
+.nyanimg3 {
+    width: 15%;
+    top: 45px;
+    left: 45%;
+    position: absolute;
+    border: black 10px;
+}
+
+.nyanimg4 {
+    width: 35%;
+    top: 300px;
+    left: 20%;
+    position: absolute;
+    border: black 5px;
+}
+
+.nyanimg5 {
+    width: 15%;
+    top: 250px;
+    left: 70%;
+    position: absolute;
+    border: black 5px;
+}
+
+
+/* Page 2*/
+.pbj {
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    background-image: url(images/navbar.gif);
+    background-size: cover;
+    background-position: center;
+    border: 10px solid yellow;
+    
+    margin-right: 0px;
+}
+
+
+body.page2 {
+    background-image: url(images/background3.gif);
+    background-position: center;
+    background-size: cover;
+}
+
+.pbjgrid1 {
+    display: grid;
+    border: 5px solid yellow;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: 1fr 3fr 1fr;
+    grid-gap: 10px;
+    height: 750px;
+    background-color: rgba(0,0,0,0.20);
+    position: relative;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+}
+
+.pbjvid1 {
+    grid-column-start: 3;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    margin: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.pbjlyric {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    text-align: center;
+    position: relative;
+    font-size: 40px;
+    color: black;
+}
+
+.pbjlyrics1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    font-size: 0.5em;
+    color: black;
+}
+
+.pbjlyrics2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    font-size: 0.5em;
+    color: black;
+}
+
+.pbjimgcontainer {
+    position: relative;
+    margin-bottom: 20px;
+    height: 550px;
+}
+
+.pbjimg1 {
+    width: 35%;
+    top: 50px;
+    left: 5%;
+    position: absolute;
+    border: black 5px;
+}
+
+.pbjimg2 {
+    width: 40%;
+    top: 75px;
+    left: 40%;
+    position: absolute;
+    border: black 5px;
+}
+
+.pbjimg3 {
+    width: 15%;
+    top: 45px;
+    left: 45%;
+    position: absolute;
+    border: black 10px;
+}
+
+.pbjimg4 {
+    width: 15%;
+    top: 275px;
+    left: 30%;
+    position: absolute;
+    border: black 5px;
+}
+
+.pbjimg5 {
+    width: 20%;
+    top: 75px;
+    left: 70%;
+    position: absolute;
+    border: black 5px;
+}
+
+.pbjimg6 {
+    width: 20%;
+    top: 40px;
+    left: 30%;
+    position: absolute;
+    z-index: 1;
+}
+
+.pbjimg7 {
+    width: 15%;
+    top: 45px;
+    left: 25%;
+    position: absolute;
+    z-index: 2;
+}
