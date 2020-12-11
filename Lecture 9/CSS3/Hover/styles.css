@@ -1,0 +1,126 @@
+.body1 {
+    background: #02AAB0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #00CDAC, #02AAB0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #00CDAC, #02AAB0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin: 5%;
+    width: 100%;
+}
+
+.part1 {
+    display: block;
+    float: left;
+    list-style: none;
+    position: relative;
+}
+
+.part1 ul li {
+    position: relative;
+    display: block;
+    list-style: none;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    margin-bottom: 50px;
+}
+
+.part1 li a {
+    position: relative;
+    text-decoration: none;
+    color: black;
+    background: rgb(255, 255, 255, 0.25);
+    border-radius: 30px;
+    padding: 20px;
+    font-size: 50px;
+    margin-bottom: 100px;
+    -webkit-border-bottom-right-radius: 31px;
+	-webkit-border-bottom-left-radius: 31px;
+	-moz-border-bottom-right-radius: 31px;
+	-moz-border-bottom-left-radius: 31px;
+	border-bottom-right-radius: 31px;
+	border-bottom-left-radius: 31px;
+
+
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5x ease-in-out;
+}
+
+
+
+.part1 li a:hover, .part1 li a:focus {
+    background: #B2FEFA;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0ED2F7, #B2FEFA);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0ED2F7, #B2FEFA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-size: 70px;
+    padding-bottom: 50px;
+    padding: 50px 50px;
+
+}
+
+.body2 {
+    background: #ee9ca7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffdde1, #ee9ca7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.part2 {
+    display: block;
+    text-align: center;
+    list-style: none;
+    position: relative;
+    margin: 30px;
+}
+
+.part2 li {
+    display: block;
+    list-style: none;
+    padding: 20px;
+}
+
+img {
+    width: 80px;
+}
+
+.right {
+    opacity: 0.5;
+    -webkit-transition: opacity 0.2s ease-in-out;
+    -moz-transition: opacity 0.2s ease-in-out;
+    -o-transition: opacity 0.2s ease-in-out;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.right a:hover {
+    opacity: 1;
+    position: relative;
+    left: 20px;
+}
+
+#navigation-logos-right a img {
+    opacity: 0.5;
+    -webkit-transition: opacity 0.2s ease-in-out;
+    -moz-transition: opacity 0.2s ease-in-out;
+    -o-transition: opacity 0.2s ease-in-out;
+    transition: opacity 0.2s ease-in-out;    
+}
+    
+#navigation-logos-right a:hover img, #navigation-logos a:focus img {
+    opacity: 1;
+    position: relative;
+    left: 20px;
+}
+
+#navigation-logos-left a img {
+    opacity: 1;
+    -webkit-transition: opacity 0.2s ease-in-out;
+    -moz-transition: opacity 0.2s ease-in-out;
+    -o-transition: opacity 0.2s ease-in-out;
+    transition: opacity 0.2s ease-in-out;    
+}
+    
+#navigation-logos-left a:hover img, #navigation-logos a:focus img {
+    opacity: 0.5;
+    position: relative;
+    right: 20px;
+}
